@@ -47,23 +47,23 @@ nav a:hover{
 color:#55624A;
 }
 
-.submenu{
-display:none;
-position:absolute;
-background:white;
-top:25px;
-left:0;
-list-style:none;
-min-width:180px;
-box-shadow:0 5px 15px rgba(0,0,0,.15);
-}
-
 .submenu li{
 padding:10px;
 }
 
-.dropdown:hover .submenu{
-display:block;
+.submenu{
+    display:none;
+    position:absolute;
+    background:white;
+    top:30px;
+    left:0;
+    min-width:200px;
+    list-style:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.submenu.activo{
+    display:block;
 }
 
 .hero{
